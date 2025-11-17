@@ -1,0 +1,6 @@
+{
+  "bucket_name": "vamshi-demo-bucket",
+  "location": "US-CENTRAL1",
+  "storage_class": "STANDARD",
+  "created_at": "2025-11-16T00:00:00Z"
+}
