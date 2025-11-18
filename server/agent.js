@@ -4,6 +4,9 @@ import path from "path";
 import { fileURLToPath } from "url";
 import mockGCP from "./tools/mockGCP.mjs";
 import mockGemini from "./tools/mockGemini.mjs";
+import { listBuckets, getBucketDetails } from "./tools/mockGCP.js";
+import { askGemini } from "./tools/mockGemini.js";
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
