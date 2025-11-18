@@ -1,0 +1,11 @@
+{
+  "name": "cloud-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start": "node server/agent.js"
+  }
+}
