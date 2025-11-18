@@ -1,18 +1,11 @@
 {
   "name": "adk-agent",
   "version": "1.0.0",
-  "type":"module",
-  "main": "agent.js",
+  "type": "module",
+  "main": "server/agent.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node agent.js"
-
+    "start": "node server/agent.js"
   },
-  "keywords": [],
-  
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@google-cloud/vision": "^5.3.4",
     "cors": "^2.8.5",
